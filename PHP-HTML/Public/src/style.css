@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #d81d0f, #170af1);
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+.escudo{
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 15px;
+    display: block;
+    max-width: 100%;
+}
+
+
+
+.video{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.estadio {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Asegura que los elementos hijos se apilen verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+.estadio img {
+    max-width: 100%; /* Asegura que la imagen no exceda el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.entrenador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Asegura que los elementos hijos se apilen verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+.entrenador img {
+    max-width: 100%; /* Asegura que la imagen no exceda el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+.portero {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Asegura que los elementos hijos se apilen verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    width: 40%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+.portero img {
+    max-width: 40%; /* Asegura que la imagen no exceda el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.defensas {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Asegura que los elementos hijos se apilen verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    width: 40%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+.defensas img {
+    max-width: 40%; /* Asegura que la imagen no exceda el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.centrocampistas {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Asegura que los elementos hijos se apilen verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    width: 40%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+.centrocampistas img {
+    max-width: 40%; /* Asegura que la imagen no exceda el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.delanteros {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Asegura que los elementos hijos se apilen verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    width: 40%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+.delanteros img {
+    max-width: 40%; /* Asegura que la imagen no exceda el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+h1 {
+    color: #fffdfd;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+}
